@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Heading from './Heading';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+        <Heading />
+        </p>
+      </header>
+      <header className='App'>
+      <Heading />
       </header>
     </div>
   );
