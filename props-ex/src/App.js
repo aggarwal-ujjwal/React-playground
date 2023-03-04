@@ -8,6 +8,7 @@ function App() {
     <Header name ="Anna" color="purple" />
     <Main greet="Howdy" />
     <Sidebar greet="Hi" />
+    <Header name ="Bob" color="Blue" />
     </div>
   );
 }
