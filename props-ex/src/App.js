@@ -5,9 +5,9 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <div>
-    <Header />
-    <Main />
-    <Sidebar />
+    <Header name ="Anna" color="purple" />
+    <Main greet="Howdy" />
+    <Sidebar greet="Hi" />
     </div>
   );
 }

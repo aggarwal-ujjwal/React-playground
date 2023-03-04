@@ -1,6 +1,6 @@
-function Sidebar(){
+function Sidebar(props){
     return (
-        <h1 className="App-header">Hello from Sidebar</h1>
+        <h1 className="App-header">{props.greet} from Sidebar</h1>
     );
 }
 

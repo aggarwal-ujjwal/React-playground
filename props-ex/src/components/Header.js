@@ -1,8 +1,12 @@
 import "../App.css";
 
-function Header() {
+function Header(props) {
+    console.log(props);
     return (
-        <h1 className="App-header"> Hello there indeed </h1>
+        
+        <h1 className="App-header"> 
+            Hello there indeed , {props.name}-{props.color}
+        </h1>
     );
 }
 
