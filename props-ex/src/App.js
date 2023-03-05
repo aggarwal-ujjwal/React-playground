@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Main from "./components/Main"
 import Sidebar from "./components/Sidebar";
+import Ternaryex from "./components/Ternaryex";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Main greet="Howdy" />
     <Sidebar greet="Hi" />
     <Header name ="Bob" color="Blue" />
+    <Ternaryex />
     </div>
   );
 }
